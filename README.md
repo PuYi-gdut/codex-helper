@@ -53,3 +53,15 @@
 ## 📜 许可证
 
 本项目基于 [MIT License](LICENSE) 开源，允许任何个人或团队进行自由修改与二次分发，但请务必保留原作者署名及开源协议声明。
+
+
+
+## 上面方法存在的问题
+能跳过电话号码验证，但在codex里面只能使用chat模式，使用work模式会出现refreash token为空的报错，网络连接出现问题
+
+
+## 解决办法
+1.使用上面方法成功登陆codex，进入codex然后手动退出codex登录，然后重新登录，（退出重新登录不会出现电话号码进行验证），重新登陆后会发现auth.json文件里面会补全refreash token
+2.补全refreash token后便可使用codex的work模式，所有功能都恢复正常
+
+##亲测有效，原方法来自https://github.com/zhishile/codex-auth-helper，本作者只是在原方法的基础上发现问题进行改进
