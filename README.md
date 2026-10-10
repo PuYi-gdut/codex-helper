@@ -61,7 +61,7 @@
 
 
 ## 解决办法
-1.使用上面方法成功登陆codex，进入codex然后手动退出codex登录，然后重新登录，（退出重新登录不会出现电话号码进行验证），重新登陆后会发现auth.json文件里面会补全refreash token
-2.补全refreash token后便可使用codex的work模式，所有功能都恢复正常
+1. 使用上面方法成功登陆codex，进入codex然后手动退出codex登录，然后重新登录，（退出重新登录不会出现电话号码进行验证），重新登陆后会发现auth.json文件里面会补全refreash token
+2. 补全refreash token后便可使用codex的work模式，所有功能都恢复正常
 
-##亲测有效，原方法来自https://github.com/zhishile/codex-auth-helper，本作者只是在原方法的基础上发现问题进行改进
+## 亲测有效，原方法来自https://github.com/zhishile/codex-auth-helper，本作者只是在原方法的基础上发现问题进行改进
